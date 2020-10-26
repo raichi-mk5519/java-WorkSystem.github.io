@@ -1,6 +1,6 @@
-import java.util.List;
-import java.util.jar.Attributes.Name;
-import java.util.Iterator;
+// import java.util.List;
+// import java.util.jar.Attributes.Name;
+// import java.util.Iterator;
 
 public class Information {
     private static String name;
@@ -9,7 +9,7 @@ public class Information {
     private static double ecount;
     private static String[] material = {"SCM415", "SCM420", "SCM435", "S45C"};
     
-
+/*
     public void Information(String name, int weight, String[] material) {
         this.name = name;
         this.weight = weight;
@@ -17,7 +17,7 @@ public class Information {
         this.mcount = mcount;
         this.ecount = ecount;
     }
-
+*/
     public static void main(String[] args) {
         //引数で指定した情報を持つ商品を作成
         
