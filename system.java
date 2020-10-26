@@ -23,7 +23,7 @@ public class system {
         int result = array[0] * 10 + array[1] * 20 + array[2] * 50 +
         array[3] * 6;
         int sum = java.util.Arrays.stream(array).sum();
-        int time = 0;
+        // int time;
         
         if (result >= 500) {
             System.out.println("Overweight");
@@ -40,15 +40,15 @@ public class system {
         if (sum / array.length >= 7) {
             System.out.println("pattern: 1");
             System.out.println("加熱時間は" + pattern.get("1") + "分です。");
-            time = pattern.get("1");
+            // time = pattern.get("1");
         } else if (sum / array.length < 7 & sum / array.length >= 4) {
             System.out.println("pattern: 2");
             System.out.println("加熱時間は" + pattern.get("2") + "分です。");
-            time = pattern.get("2");
+            // time = pattern.get("2");
         } else if (sum / array.length < 4) {
             System.out.println("pattern: 3");
             System.out.println("加熱時間は" + pattern.get("3") + "分です。");
-            time = pattern.get("3");
+            // time = pattern.get("3");
         }
 
     }
